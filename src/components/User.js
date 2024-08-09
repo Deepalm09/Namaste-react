@@ -1,8 +1,11 @@
-import React from 'react'
+import React from 'react';
+
 
 const User = ({name}) => {
+   
   return (
     <div className='user-card'>
+        
         <h2>name:
             {name}
         </h2>
